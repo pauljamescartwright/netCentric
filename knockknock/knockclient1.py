@@ -13,22 +13,32 @@ def getServerIp():
         SimpleClient(responce.strip())
 
 def SimpleClient(IP):
+
+    ### connect to server
     os.system("clear")
-    keepgoing = True
-    #while keepgoing == True:
     client = socket(AF_INET, SOCK_STREAM)
     client.connect((IP,2000))
+
+    ### recieve data from server
     msg = client.recv(1024)
     print(msg.decode("ascii"))
+
+    ### respond to server
     responce = "\tWho's there?"
     print(responce)
     client.send(responce.encode("ascii"))
+
+    ### recieve data from server
     data = client.recv(1024)
     msg = data.decode("ascii")
     print(msg)
+
+    ### respond to server
     responce = str("\t" + str(msg) + " who?")
     print(responce)
     client.send(responce.encode("ascii"))
+
+    ### recieve data from server
     data = client.recv(1024)
     msg = data.decode("ascii")
     print(msg)

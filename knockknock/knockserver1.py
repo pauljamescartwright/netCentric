@@ -10,6 +10,8 @@ def getMyIp():
     return (s.getsockname()[0])
 
 def KnockKnock():
+
+    ### open socket
     os.system("clear")
     print("...Starting Server...")
     serversocket = socket(AF_INET, SOCK_STREAM)
@@ -17,17 +19,27 @@ def KnockKnock():
     serversocket.bind((getMyIp(),2000))
     serversocket.listen(1)
     print("...Listening...")
+
+    ### starting loop
     dont_stop = True
     while dont_stop == True:
         print("Waiting...")
+
+        ### receives connection
         clientsocket,addr = serversocket.accept()
         print("connection from : ", addr[0])
+
+        ### responds to client
         responce = "Knock-Knock"
         print(responce)
         clientsocket.send(responce.encode("ascii"))
+
+        ### receives responce from client
         data = clientsocket.recv(1024)
         msg = data.decode("ascii")
         print(msg)
+
+        ### responds to client with a joke from the file
         if msg == "\tWho's there?":
             jokes = open("jokes.txt")
             lines = []
@@ -38,9 +50,13 @@ def KnockKnock():
             responce = lines[rand][0]
             print(responce)
             clientsocket.send(responce.encode("ascii"))
+
+        ### receives responce from client
         data = clientsocket.recv(1024)
         msg = data.decode("ascii")
         print(msg)
+
+        ### responds to client with second half of joke
         responce = lines[rand][1]
         responce = responce.strip()
         print(responce)
