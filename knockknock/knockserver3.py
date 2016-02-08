@@ -10,19 +10,21 @@ def getMyIp():
     return (s.getsockname()[0])
 
 
-def respond(responce, clientsocket):
-    print(responce)
+def respond(responce, clientsocket, printresponce=True):
+    if printresponce:
+        print(responce)
     clientsocket.send(responce.encode("ascii"))
 
 
-def recieve(clientsocket):
+def recieve(clientsocket, printresponce=True):
     data = clientsocket.recv(1024)
     msg = data.decode("ascii")
-    print(msg)
+    if printresponce:
+        print(msg)
     return msg
 
 
-def hearJoke(clientsocket):
+def hearJoke(clientsocket, lines, jokes):
     # recieve data from server
     msg = recieve(clientsocket)
 
@@ -31,14 +33,26 @@ def hearJoke(clientsocket):
 
     # recieve data from server
     msg = recieve(clientsocket)
+    firstPart = msg
 
     # respond to server
-    respond(str("\t" + str(msg) + " who?"), clientsocket)
+    respond(str(msg) + " who?", clientsocket)
 
     # recieve data from server
     msg = recieve(clientsocket)
 
-def tellJoke(clientsocket):
+    alreadyHaveJoke = False
+    for line in lines:
+
+        if firstPart == line[0] and msg == line[1]:
+            alreadyHaveJoke = True
+    if not alreadyHaveJoke:
+        lines.append((firstPart,msg))
+        jokes.write(str(firstPart + ", " + msg))
+    print("made it!")
+
+
+def tellJoke(clientsocket, lines):
 
     # responds to client
     respond("Knock-Knock", clientsocket)
@@ -48,11 +62,6 @@ def tellJoke(clientsocket):
 
     # responds to client with a joke from the file
     if msg == "\tWho's there?":
-        jokes = open("jokes.txt")
-        lines = []
-        for row in jokes:
-            items = row.strip().split(",")
-            lines.append(tuple(items))
         rand = random.randint(0, len(lines)-1)
         respond(lines[rand][0], clientsocket)
 
@@ -74,17 +83,24 @@ def KnockKnock():
     print("...Listening...")
 
     # starting loop
+
+    jokes = open("jokes.txt")
+    lines = []
+    for row in jokes:
+        items = row.strip().split(",")
+        lines.append(tuple(items))
+
     dont_stop = True
     while dont_stop:
         print("Waiting...")
         # receives connection
         clientsocket, addr = serversocket.accept()
         print("connection from : ", addr[0])
-        msg = recieve(clientsocket)
+        msg = recieve(clientsocket, False)
         if msg == "tell":
-            tellJoke(clientsocket)
+            hearJoke(clientsocket, lines, jokes)
         else: 
-            hearJoke(clientsocket)
+            tellJoke(clientsocket, lines)
 
     clientsocket.close()
 

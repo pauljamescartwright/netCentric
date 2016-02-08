@@ -2,6 +2,7 @@
 import os
 
 from socket import *
+import random
 
 
 def getServerIp():
@@ -14,15 +15,17 @@ def getServerIp():
         SimpleClient(responce.strip())
 
 
-def respond(responce, clientsocket):
-    print(responce)
+def respond(responce, clientsocket, printresponce=True):
+    if printresponce:
+        print(responce)
     clientsocket.send(responce.encode("ascii"))
 
 
-def recieve(clientsocket):
+def recieve(clientsocket, printresponce=True):
     data = clientsocket.recv(1024)
     msg = data.decode("ascii")
-    print(msg)
+    if printresponce:
+        print(msg)
     return msg
 
 
@@ -43,7 +46,18 @@ def hearJoke(clientsocket):
     msg = recieve(clientsocket)
 
 def tellJoke(clientsocket):
-    print("joke")
+    print("joke to server")
+    # receives responce from client
+    respond("Knock-Knock", clientsocket)
+    while(True):
+        msg = recieve(clientsocket, False)
+        usrInput = input()
+        if usrInput == "haha!":
+            break
+        else:
+            respond("\t" + usrInput, clientsocket)
+
+
 
 def SimpleClient(IP):
     # connect to server
@@ -56,15 +70,13 @@ def SimpleClient(IP):
     while not done:
         usrInput = int(input("Do you want to tell a joke(0) or hear a joke(1)"))
         if usrInput == 1:
-            respond("hear", clientsocket)
+            respond("hear", clientsocket, False)
             hearJoke(clientsocket)
             done = True
-            print("1")
         elif usrInput == 0:
-            respond("tell", clientsocket)
+            respond("tell", clientsocket, False)
             tellJoke(clientsocket)
             done = True
-            print("0")
 
 
 getServerIp()
