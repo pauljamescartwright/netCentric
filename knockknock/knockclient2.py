@@ -14,34 +14,45 @@ def getServerIp():
         SimpleClient(responce.strip())
 
 
+def respond(responce, client):
+    print(responce)
+    client.send(responce.encode("ascii"))
+
+
+def recieve(client):
+    data = client.recv(1024)
+    msg = data.decode("ascii")
+    print(msg)
+    return msg
+
+
 def SimpleClient(IP):
     # connect to server
     os.system("clear")
     client = socket(AF_INET, SOCK_STREAM)
     client.connect((IP, 2000))
+    print("...Conected...")
 
     # recieve data from server
-    msg = client.recv(1024)
-    print(msg.decode("ascii"))
+    msg = recieve(client)
 
     # respond to server
-    responce = "\tWho's there?"
-    print(responce)
-    client.send(responce.encode("ascii"))
+    respond("\tWho's there?", client)
 
     # recieve data from server
-    data = client.recv(1024)
-    msg = data.decode("ascii")
-    print(msg)
+    msg = recieve(client)
 
-    # respond to server
-    responce = str("\t" + str(msg) + " who?")
-    print(responce)
-    client.send(responce.encode("ascii"))
+    # respond to servers
+    if msg == "Banana":
+        respond(str("\t" + str(msg) + " who?"), client)
+        msg = recieve(client)
+        respond(str("\t" + "BANANA" + " who!?"), client)
+        msg = recieve(client)
+        respond(str("\t" + str(msg) + " who?"), client)
+    else:
+        respond(str("\t" + str(msg) + " who?"), client)
 
     # recieve data from server
-    data = client.recv(1024)
-    msg = data.decode("ascii")
-    print(msg)
+    msg = recieve(client)
 
 getServerIp()
