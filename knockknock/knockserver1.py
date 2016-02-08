@@ -10,6 +10,18 @@ def getMyIp():
     return (s.getsockname()[0])
 
 
+def respond(responce, clientsocket):
+    print(responce)
+    clientsocket.send(responce.encode("ascii"))
+
+
+def recieve(clientsocket):
+    data = clientsocket.recv(1024)
+    msg = data.decode("ascii")
+    print(msg)
+    return msg
+
+
 def KnockKnock():
     # open socket
     os.system("clear")
@@ -30,14 +42,10 @@ def KnockKnock():
         print("connection from : ", addr[0])
 
         # responds to client
-        responce = "Knock-Knock"
-        print(responce)
-        clientsocket.send(responce.encode("ascii"))
+        respond("Knock-Knock", clientsocket)
 
         # receives responce from client
-        data = clientsocket.recv(1024)
-        msg = data.decode("ascii")
-        print(msg)
+        msg = recieve(clientsocket)
 
         # responds to client with a joke from the file
         if msg == "\tWho's there?":
@@ -47,20 +55,13 @@ def KnockKnock():
                 items = row.strip().split(",")
                 lines.append(tuple(items))
             rand = random.randint(0, len(lines)-1)
-            responce = lines[rand][0]
-            print(responce)
-            clientsocket.send(responce.encode("ascii"))
+            respond(lines[rand][0], clientsocket)
 
         # receives responce from client
-        data = clientsocket.recv(1024)
-        msg = data.decode("ascii")
-        print(msg)
+        msg = recieve(clientsocket)
 
         # responds to client with second half of joke
-        responce = lines[rand][1]
-        responce = responce.strip()
-        print(responce)
-        clientsocket.send(responce.encode("ascii"))
+        respond(lines[rand][1].strip(), clientsocket)
 
     clientsocket.close()
 
