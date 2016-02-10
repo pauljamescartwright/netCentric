@@ -24,19 +24,19 @@ def recieve(clientsocket, printresponce=True):
     return msg
 
 
-def hearJoke(clientsocket, lines, jokes):
+def hearJoke(clientsocket, lines):
     # recieve data from server
     msg = recieve(clientsocket)
 
     # respond to server
-    respond("\tWho's there?", clientsocket)
+    respond("Who's there?", clientsocket)
 
     # recieve data from server
     msg = recieve(clientsocket)
     firstPart = msg
 
     # respond to server
-    respond(str(msg) + " who?", clientsocket)
+    respond(str(msg.strip()) + " who?", clientsocket)
 
     # recieve data from server
     msg = recieve(clientsocket)
@@ -47,9 +47,10 @@ def hearJoke(clientsocket, lines, jokes):
         if firstPart == line[0] and msg == line[1]:
             alreadyHaveJoke = True
     if not alreadyHaveJoke:
-        lines.append((firstPart,msg))
-        jokes.write(str(firstPart + ", " + msg))
-    print("made it!")
+        lines.append((firstPart.strip(), msg.strip()))
+        newJoke = firstPart + ", " + msg
+    respond("haha!", clientsocket)
+    return newJoke
 
 
 def tellJoke(clientsocket, lines):
@@ -84,7 +85,7 @@ def KnockKnock():
 
     # starting loop
 
-    jokes = open("jokes.txt")
+    jokes = open("jokes.txt", "r+")
     lines = []
     for row in jokes:
         items = row.strip().split(",")
@@ -98,8 +99,10 @@ def KnockKnock():
         print("connection from : ", addr[0])
         msg = recieve(clientsocket, False)
         if msg == "tell":
-            hearJoke(clientsocket, lines, jokes)
-        else: 
+            newJoke = hearJoke(clientsocket, lines)
+            # jokes.write("\n" + newJoke.strip())
+            # jokes.close()
+        else:
             tellJoke(clientsocket, lines)
 
     clientsocket.close()

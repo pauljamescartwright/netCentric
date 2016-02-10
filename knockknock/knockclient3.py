@@ -2,7 +2,6 @@
 import os
 
 from socket import *
-import random
 
 
 def getServerIp():
@@ -48,14 +47,14 @@ def hearJoke(clientsocket):
 def tellJoke(clientsocket):
     print("joke to server")
     # receives responce from client
-    respond("Knock-Knock", clientsocket)
+    respond("\tKnock-Knock", clientsocket)
     while(True):
-        msg = recieve(clientsocket, False)
-        usrInput = input()
-        if usrInput == "haha!":
+        msg = recieve(clientsocket)
+        if msg == "haha!":
             break
         else:
-            respond("\t" + usrInput, clientsocket)
+            usrInput = input("\t")
+            respond("\t" + usrInput, clientsocket, False)
 
 
 
