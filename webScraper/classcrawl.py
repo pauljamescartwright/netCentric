@@ -4,13 +4,20 @@ from bs4 import BeautifulSoup
 import re
 
 
-def presidents():
-
-    html= urlopen("https://en.wikipedia.org/wiki/United_States_presidential_election,_1824")
+def presidents(year):
+    html= urlopen("https://en.wikipedia.org/wiki/United_States_presidential_election,_" + year)
     bsObj = BeautifulSoup(html, "html.parser")
 
-    print(bsObj.findAll("table", {"class": re.compile("sortable")}))
-    print("hello")
+    thing = bsObj.select('table.wikitable.sortable')
+    # bsObj.findAll("table", {"class": re.compile("wikitable")}).findAll("table", {"class": re.compile("sortable")})
+    f = open("year"+year, "w")
+    print(thing[0], file=f)
+    f.close()
 
-presidents()
+def years():
+    for i in range(0, 10):
+        year = i*4+1824
+        presidents(str(year))
+
+years()
 

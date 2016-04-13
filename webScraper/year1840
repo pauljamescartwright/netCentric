@@ -1,0 +1,406 @@
+<table class="wikitable sortable" style="text-align:right">
+<tr>
+<th colspan="2"></th>
+<th align="center" colspan="3">William Henry Harrison<br/>
+Whig</th>
+<th align="center" colspan="3">Martin Van Buren<br/>
+Democratic</th>
+<th align="center" colspan="3">James G. Birney<br/>
+Liberty</th>
+<th align="center" colspan="2">State Total</th>
+</tr>
+<tr>
+<th align="center">State</th>
+<th style="text-align:center; font-size: 60%">electoral<br/>
+votes</th>
+<th align="center">#</th>
+<th align="center"> %</th>
+<th style="text-align:center; font-size: 60%">electoral<br/>
+votes</th>
+<th align="center">#</th>
+<th align="center"> %</th>
+<th style="text-align:center; font-size: 60%">electoral<br/>
+votes</th>
+<th align="center">#</th>
+<th align="center"> %</th>
+<th style="text-align:center; font-size: 60%">electoral<br/>
+votes</th>
+<th align="center">#</th>
+<th></th>
+</tr>
+<tr>
+<th>Alabama</th>
+<th>7</th>
+<td><span style="display:none">00013618</span>28,515</td>
+<td>45.62</td>
+<td>-</td>
+<td><span style="display:none">00048669</span>33,996</td>
+<td>54.38</td>
+<td>7</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>62,511</td>
+<th>AL</th>
+</tr>
+<tr>
+<th>Arkansas</th>
+<th>3</th>
+<td>5,160</td>
+<td>43.58</td>
+<td>-</td>
+<td>6,679</td>
+<td>56.42</td>
+<td>3</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>11,839</td>
+<th>AR</th>
+</tr>
+<tr>
+<th>Connecticut</th>
+<th>8</th>
+<td>31,598</td>
+<td>55.55</td>
+<td>8</td>
+<td>25,281</td>
+<td>44.45</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>56,879</td>
+<th>CT</th>
+</tr>
+<tr>
+<th>Delaware</th>
+<th>3</th>
+<td>5,967</td>
+<td>54.99</td>
+<td>3</td>
+<td>4,872</td>
+<td>44.89</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>10,852</td>
+<th>DE</th>
+</tr>
+<tr>
+<th>Georgia</th>
+<th>11</th>
+<td>40,339</td>
+<td>55.78</td>
+<td>11</td>
+<td>31,983</td>
+<td>44.22</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>72,322</td>
+<th>GA</th>
+</tr>
+<tr>
+<th>Illinois</th>
+<th>5</th>
+<td>45,574</td>
+<td>48.91</td>
+<td>-</td>
+<td>47,441</td>
+<td>50.92</td>
+<td>5</td>
+<td>160</td>
+<td>0.17</td>
+<td>-</td>
+<td>93,175</td>
+<th>IL</th>
+</tr>
+<tr>
+<th>Indiana</th>
+<th>9</th>
+<td>65,302</td>
+<td>55.86</td>
+<td>9</td>
+<td>51,604</td>
+<td>44.14</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>116,906</td>
+<th>IN</th>
+</tr>
+<tr>
+<th>Kentucky</th>
+<th>15</th>
+<td>58,488</td>
+<td>64.20</td>
+<td>15</td>
+<td>32,616</td>
+<td>35.80</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>116,865</td>
+<th>KY</th>
+</tr>
+<tr>
+<th>Louisiana</th>
+<th>5</th>
+<td>11,296</td>
+<td>59.73</td>
+<td>5</td>
+<td>7,616</td>
+<td>40.27</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>18,912</td>
+<th>LA</th>
+</tr>
+<tr>
+<th>Maine</th>
+<th>10</th>
+<td>46,612</td>
+<td>50.23</td>
+<td>10</td>
+<td>46,190</td>
+<td>49.77</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>92,802</td>
+<th>ME</th>
+</tr>
+<tr>
+<th>Maryland</th>
+<th>10</th>
+<td>33,528</td>
+<td>53.83</td>
+<td>10</td>
+<td>28,752</td>
+<td>46.17</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>62,280</td>
+<th>MD</th>
+</tr>
+<tr>
+<th>Massachusetts</th>
+<th>14</th>
+<td>72,852</td>
+<td>57.44</td>
+<td>14</td>
+<td>52,355</td>
+<td>41.28</td>
+<td>-</td>
+<td>1,618</td>
+<td>1.28</td>
+<td>-</td>
+<td>126,825</td>
+<th>MA</th>
+</tr>
+<tr>
+<th>Michigan</th>
+<th>3</th>
+<td>22,933</td>
+<td>51.71</td>
+<td>3</td>
+<td>21,096</td>
+<td>47.57</td>
+<td>-</td>
+<td>321</td>
+<td>0.72</td>
+<td>-</td>
+<td>44,350</td>
+<th>MI</th>
+</tr>
+<tr>
+<th>Mississippi</th>
+<th>4</th>
+<td>19,515</td>
+<td>53.43</td>
+<td>4</td>
+<td>17,010</td>
+<td>46.57</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>36,525</td>
+<th>MS</th>
+</tr>
+<tr>
+<th>Missouri</th>
+<th>4</th>
+<td>22,954</td>
+<td>43.37</td>
+<td>-</td>
+<td>29,969</td>
+<td>56.63</td>
+<td>4</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>52,923</td>
+<th>MO</th>
+</tr>
+<tr>
+<th>New Hampshire</th>
+<th>7</th>
+<td>26,310</td>
+<td>43.88</td>
+<td>-</td>
+<td>32,774</td>
+<td>54.66</td>
+<td>7</td>
+<td>872</td>
+<td>1.45</td>
+<td>-</td>
+<td>59,956</td>
+<th>NH</th>
+</tr>
+<tr>
+<th>New Jersey</th>
+<th>8</th>
+<td>33,351</td>
+<td>51.74</td>
+<td>8</td>
+<td>31,034</td>
+<td>48.15</td>
+<td>-</td>
+<td>69</td>
+<td>0.11</td>
+<td>-</td>
+<td>64,454</td>
+<th>NJ</th>
+</tr>
+<tr>
+<th>New York</th>
+<th>42</th>
+<td>226,001</td>
+<td>51.18</td>
+<td>42</td>
+<td>212,733</td>
+<td>48.18</td>
+<td>-</td>
+<td>2,809</td>
+<td>0.64</td>
+<td>-</td>
+<td>441,543</td>
+<th>NY</th>
+</tr>
+<tr>
+<th>North Carolina</th>
+<th>15</th>
+<td>46,567</td>
+<td>57.68</td>
+<td>15</td>
+<td>34,168</td>
+<td>42.32</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>80,735</td>
+<th>NC</th>
+</tr>
+<tr>
+<th>Ohio</th>
+<th>21</th>
+<td>148,157</td>
+<td>54.10</td>
+<td>21</td>
+<td>124,782</td>
+<td>45.57</td>
+<td>-</td>
+<td>903</td>
+<td>0.33</td>
+<td>-</td>
+<td>273,842</td>
+<th>OH</th>
+</tr>
+<tr>
+<th>Pennsylvania</th>
+<th>30</th>
+<td>144,010</td>
+<td>50.00</td>
+<td>30</td>
+<td>143,676</td>
+<td>49.88</td>
+<td>-</td>
+<td>340</td>
+<td>0.12</td>
+<td>-</td>
+<td>288,026</td>
+<th>PA</th>
+</tr>
+<tr>
+<th>Rhode Island</th>
+<th>4</th>
+<td>5,278</td>
+<td>61.22</td>
+<td>4</td>
+<td>3,301</td>
+<td>38.29</td>
+<td>-</td>
+<td>42</td>
+<td>0.49</td>
+<td>-</td>
+<td>8,621</td>
+<th>RI</th>
+</tr>
+<tr>
+<th>South Carolina</th>
+<th>11</th>
+<td align="center" colspan="3"><i>no popular vote</i></td>
+<td align="center" colspan="2"><i>no popular vote</i></td>
+<td>11</td>
+<td align="center" colspan="3"><i>no popular vote</i></td>
+<td>-</td>
+<th>SC</th>
+</tr>
+<tr>
+<th>Tennessee</th>
+<th>15</th>
+<td>60,194</td>
+<td>55.66</td>
+<td>15</td>
+<td>47,951</td>
+<td>44.34</td>
+<td>-</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>108,145</td>
+<th>TN</th>
+</tr>
+<tr>
+<th>Vermont</th>
+<th>7</th>
+<td>32,445</td>
+<td>63.90</td>
+<td>7</td>
+<td>18,009</td>
+<td>35.47</td>
+<td>-</td>
+<td>319</td>
+<td>0.63</td>
+<td>-</td>
+<td>50,773</td>
+<th>VT</th>
+</tr>
+<tr>
+<th>Virginia</th>
+<th>23</th>
+<td>42,637</td>
+<td>49.35</td>
+<td>-</td>
+<td>43,757</td>
+<td>50.65</td>
+<td>23</td>
+<td align="center" colspan="3"><i>no ballots</i></td>
+<td>86,394</td>
+<th>VA</th>
+</tr>
+<tr>
+<th>TOTALS:</th>
+<th>294</th>
+<th>1,275,583</th>
+<th>52.87</th>
+<th>234</th>
+<th>1,129,645</th>
+<th>46.82</th>
+<th>60</th>
+<th>7,453</th>
+<th>0.31</th>
+<th>-</th>
+<th>2,412,694</th>
+<th>US</th>
+</tr>
+<tr>
+<th>TO WIN:</th>
+<th>148</th>
+<th colspan="15"></th>
+</tr>
+</table>
