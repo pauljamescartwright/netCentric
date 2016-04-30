@@ -1,0 +1,288 @@
+1940 Alabama Harry S Truman Democratic 11 0
+1940 Alabama Thomas E. Dewey Democratic pv1 ev1
+1940 Alabama Strom Thurmond Democratic pv2 ev2
+1940 Arizona Harry S Truman Democratic 0.0 0
+1940 Arizona Thomas E. Dewey Democratic pv1 ev1
+1940 Arizona Strom Thurmond Democratic pv2 ev2
+1940 Arkansas Harry S Truman Democratic 16.5 0
+1940 Arkansas Thomas E. Dewey Democratic pv1 ev1
+1940 Arkansas Strom Thurmond Democratic pv2 ev2
+1940 California Harry S Truman Democratic 0.0 0
+1940 California Thomas E. Dewey Democratic pv1 ev1
+1940 California Strom Thurmond Democratic pv2 ev2
+1940 Colorado Harry S Truman Democratic 0.0 0
+1940 Colorado Thomas E. Dewey Democratic pv1 ev1
+1940 Colorado Strom Thurmond Democratic pv2 ev2
+1940 Connecticut Harry S Truman Democratic 0.0 0
+1940 Connecticut Thomas E. Dewey Democratic pv1 ev1
+1940 Connecticut Strom Thurmond Democratic pv2 ev2
+1940 Delaware Harry S Truman Democratic 0.0 0
+1940 Delaware Thomas E. Dewey Democratic pv1 ev1
+1940 Delaware Strom Thurmond Democratic pv2 ev2
+1940 Florida Harry S Truman Democratic 15.5 0
+1940 Florida Thomas E. Dewey Democratic pv1 ev1
+1940 Florida Strom Thurmond Democratic pv2 ev2
+1940 Georgia Harry S Truman Democratic 20.3 0
+1940 Georgia Thomas E. Dewey Democratic pv1 ev1
+1940 Georgia Strom Thurmond Democratic pv2 ev2
+1940 Idaho Harry S Truman Democratic 0.0 0
+1940 Idaho Thomas E. Dewey Democratic pv1 ev1
+1940 Idaho Strom Thurmond Democratic pv2 ev2
+1940 Illinois Harry S Truman Democratic 0.0 0
+1940 Illinois Thomas E. Dewey Democratic pv1 ev1
+1940 Illinois Strom Thurmond Democratic pv2 ev2
+1940 Indiana Harry S Truman Democratic 0.0 0
+1940 Indiana Thomas E. Dewey Democratic pv1 ev1
+1940 Indiana Strom Thurmond Democratic pv2 ev2
+1940 Iowa Harry S Truman Democratic 0.0 0
+1940 Iowa Thomas E. Dewey Democratic pv1 ev1
+1940 Iowa Strom Thurmond Democratic pv2 ev2
+1940 Kansas Harry S Truman Democratic 0.0 0
+1940 Kansas Thomas E. Dewey Democratic pv1 ev1
+1940 Kansas Strom Thurmond Democratic pv2 ev2
+1940 Kentucky Harry S Truman Democratic 1.3 0
+1940 Kentucky Thomas E. Dewey Democratic pv1 ev1
+1940 Kentucky Strom Thurmond Democratic pv2 ev2
+1940 Louisiana Harry S Truman Democratic 10 0
+1940 Louisiana Thomas E. Dewey Democratic pv1 ev1
+1940 Louisiana Strom Thurmond Democratic pv2 ev2
+1940 Maine Harry S Truman Democratic 0.0 0
+1940 Maine Thomas E. Dewey Democratic pv1 ev1
+1940 Maine Strom Thurmond Democratic pv2 ev2
+1940 Maryland Harry S Truman Democratic 0.4 0
+1940 Maryland Thomas E. Dewey Democratic pv1 ev1
+1940 Maryland Strom Thurmond Democratic pv2 ev2
+1940 Massachusetts Harry S Truman Democratic 0.0 0
+1940 Massachusetts Thomas E. Dewey Democratic pv1 ev1
+1940 Massachusetts Strom Thurmond Democratic pv2 ev2
+1940 Michigan Harry S Truman Democratic 0.0 0
+1940 Michigan Thomas E. Dewey Democratic pv1 ev1
+1940 Michigan Strom Thurmond Democratic pv2 ev2
+1940 Minnesota Harry S Truman Democratic 0.0 0
+1940 Minnesota Thomas E. Dewey Democratic pv1 ev1
+1940 Minnesota Strom Thurmond Democratic pv2 ev2
+1940 Mississippi Harry S Truman Democratic 9 0
+1940 Mississippi Thomas E. Dewey Democratic pv1 ev1
+1940 Mississippi Strom Thurmond Democratic pv2 ev2
+1940 Missouri Harry S Truman Democratic 0.0 0
+1940 Missouri Thomas E. Dewey Democratic pv1 ev1
+1940 Missouri Strom Thurmond Democratic pv2 ev2
+1940 Montana Harry S Truman Democratic 0.0 0
+1940 Montana Thomas E. Dewey Democratic pv1 ev1
+1940 Montana Strom Thurmond Democratic pv2 ev2
+1940 Nebraska Harry S Truman Democratic 0.0 0
+1940 Nebraska Thomas E. Dewey Democratic pv1 ev1
+1940 Nebraska Strom Thurmond Democratic pv2 ev2
+1940 Nevada Harry S Truman Democratic 0.0 0
+1940 Nevada Thomas E. Dewey Democratic pv1 ev1
+1940 Nevada Strom Thurmond Democratic pv2 ev2
+1940 New Hampshire Harry S Truman Democratic 0.0 7
+1940 New Hampshire Thomas E. Dewey Democratic pv1 ev1
+1940 New Hampshire Strom Thurmond Democratic pv2 ev2
+1940 New Jersey Harry S Truman Democratic 0.0 0
+1940 New Jersey Thomas E. Dewey Democratic pv1 ev1
+1940 New Jersey Strom Thurmond Democratic pv2 ev2
+1940 New Mexico Harry S Truman Democratic 0.0 0
+1940 New Mexico Thomas E. Dewey Democratic pv1 ev1
+1940 New Mexico Strom Thurmond Democratic pv2 ev2
+1940 New York Harry S Truman Democratic 0.0 0
+1940 New York Thomas E. Dewey Democratic pv1 ev1
+1940 New York Strom Thurmond Democratic pv2 ev2
+1940 North Carolina Harry S Truman Democratic 8.8 0
+1940 North Carolina Thomas E. Dewey Democratic pv1 ev1
+1940 North Carolina Strom Thurmond Democratic pv2 ev2
+1940 North Dakota Harry S Truman Democratic 0.2 374
+1940 North Dakota Thomas E. Dewey Democratic pv1 ev1
+1940 North Dakota Strom Thurmond Democratic pv2 ev2
+1940 Ohio Harry S Truman Democratic 0.0 0
+1940 Ohio Thomas E. Dewey Democratic pv1 ev1
+1940 Ohio Strom Thurmond Democratic pv2 ev2
+1940 Oklahoma Harry S Truman Democratic 0.0 0
+1940 Oklahoma Thomas E. Dewey Democratic pv1 ev1
+1940 Oklahoma Strom Thurmond Democratic pv2 ev2
+1940 Oregon Harry S Truman Democratic 0.0 0
+1940 Oregon Thomas E. Dewey Democratic pv1 ev1
+1940 Oregon Strom Thurmond Democratic pv2 ev2
+1940 Pennsylvania Harry S Truman Democratic 0.0 0
+1940 Pennsylvania Thomas E. Dewey Democratic pv1 ev1
+1940 Pennsylvania Strom Thurmond Democratic pv2 ev2
+1940 Rhode Island Harry S Truman Democratic 0.0 0
+1940 Rhode Island Thomas E. Dewey Democratic pv1 ev1
+1940 Rhode Island Strom Thurmond Democratic pv2 ev2
+1940 South Carolina Harry S Truman Democratic 8 0
+1940 South Carolina Thomas E. Dewey Democratic pv1 ev1
+1940 South Carolina Strom Thurmond Democratic pv2 ev2
+1940 South Dakota Harry S Truman Democratic 0.0 0
+1940 South Dakota Thomas E. Dewey Democratic pv1 ev1
+1940 South Dakota Strom Thurmond Democratic pv2 ev2
+1940 Tennessee Harry S Truman Democratic 13.4 0
+1940 Tennessee Thomas E. Dewey Democratic pv1 ev1
+1940 Tennessee Strom Thurmond Democratic pv2 ev2
+1940 Texas Harry S Truman Democratic 9.3 0
+1940 Texas Thomas E. Dewey Democratic pv1 ev1
+1940 Texas Strom Thurmond Democratic pv2 ev2
+1940 Utah Harry S Truman Democratic 0.0 0
+1940 Utah Thomas E. Dewey Democratic pv1 ev1
+1940 Utah Strom Thurmond Democratic pv2 ev2
+1940 Vermont Harry S Truman Democratic 0.0 0
+1940 Vermont Thomas E. Dewey Democratic pv1 ev1
+1940 Vermont Strom Thurmond Democratic pv2 ev2
+1940 Virginia Harry S Truman Democratic 10.4 0
+1940 Virginia Thomas E. Dewey Democratic pv1 ev1
+1940 Virginia Strom Thurmond Democratic pv2 ev2
+1940 Washington Harry S Truman Democratic 0.0 0
+1940 Washington Thomas E. Dewey Democratic pv1 ev1
+1940 Washington Strom Thurmond Democratic pv2 ev2
+1940 West Virginia Harry S Truman Democratic 0.0 0
+1940 West Virginia Thomas E. Dewey Democratic pv1 ev1
+1940 West Virginia Strom Thurmond Democratic pv2 ev2
+1940 Wisconsin Harry S Truman Democratic 0.0 0
+1940 Wisconsin Thomas E. Dewey Democratic pv1 ev1
+1940 Wisconsin Strom Thurmond Democratic pv2 ev2
+1940 Wyoming Harry S Truman Democratic 0.0 0
+1940 Wyoming Thomas E. Dewey Democratic pv1 ev1
+1940 Wyoming Strom Thurmond Democratic pv2 ev2
+1940 Alabama Harry S Truman Democratic 11 0
+1940 Alabama Thomas E. Dewey Democratic pv1 ev1
+1940 Alabama Strom Thurmond Democratic pv2 ev2
+1940 Arizona Harry S Truman Democratic 0.0 0
+1940 Arizona Thomas E. Dewey Democratic pv1 ev1
+1940 Arizona Strom Thurmond Democratic pv2 ev2
+1940 Arkansas Harry S Truman Democratic 16.5 0
+1940 Arkansas Thomas E. Dewey Democratic pv1 ev1
+1940 Arkansas Strom Thurmond Democratic pv2 ev2
+1940 California Harry S Truman Democratic 0.0 0
+1940 California Thomas E. Dewey Democratic pv1 ev1
+1940 California Strom Thurmond Democratic pv2 ev2
+1940 Colorado Harry S Truman Democratic 0.0 0
+1940 Colorado Thomas E. Dewey Democratic pv1 ev1
+1940 Colorado Strom Thurmond Democratic pv2 ev2
+1940 Connecticut Harry S Truman Democratic 0.0 0
+1940 Connecticut Thomas E. Dewey Democratic pv1 ev1
+1940 Connecticut Strom Thurmond Democratic pv2 ev2
+1940 Delaware Harry S Truman Democratic 0.0 0
+1940 Delaware Thomas E. Dewey Democratic pv1 ev1
+1940 Delaware Strom Thurmond Democratic pv2 ev2
+1940 Florida Harry S Truman Democratic 15.5 0
+1940 Florida Thomas E. Dewey Democratic pv1 ev1
+1940 Florida Strom Thurmond Democratic pv2 ev2
+1940 Georgia Harry S Truman Democratic 20.3 0
+1940 Georgia Thomas E. Dewey Democratic pv1 ev1
+1940 Georgia Strom Thurmond Democratic pv2 ev2
+1940 Idaho Harry S Truman Democratic 0.0 0
+1940 Idaho Thomas E. Dewey Democratic pv1 ev1
+1940 Idaho Strom Thurmond Democratic pv2 ev2
+1940 Illinois Harry S Truman Democratic 0.0 0
+1940 Illinois Thomas E. Dewey Democratic pv1 ev1
+1940 Illinois Strom Thurmond Democratic pv2 ev2
+1940 Indiana Harry S Truman Democratic 0.0 0
+1940 Indiana Thomas E. Dewey Democratic pv1 ev1
+1940 Indiana Strom Thurmond Democratic pv2 ev2
+1940 Iowa Harry S Truman Democratic 0.0 0
+1940 Iowa Thomas E. Dewey Democratic pv1 ev1
+1940 Iowa Strom Thurmond Democratic pv2 ev2
+1940 Kansas Harry S Truman Democratic 0.0 0
+1940 Kansas Thomas E. Dewey Democratic pv1 ev1
+1940 Kansas Strom Thurmond Democratic pv2 ev2
+1940 Kentucky Harry S Truman Democratic 1.3 0
+1940 Kentucky Thomas E. Dewey Democratic pv1 ev1
+1940 Kentucky Strom Thurmond Democratic pv2 ev2
+1940 Louisiana Harry S Truman Democratic 10 0
+1940 Louisiana Thomas E. Dewey Democratic pv1 ev1
+1940 Louisiana Strom Thurmond Democratic pv2 ev2
+1940 Maine Harry S Truman Democratic 0.0 0
+1940 Maine Thomas E. Dewey Democratic pv1 ev1
+1940 Maine Strom Thurmond Democratic pv2 ev2
+1940 Maryland Harry S Truman Democratic 0.4 0
+1940 Maryland Thomas E. Dewey Democratic pv1 ev1
+1940 Maryland Strom Thurmond Democratic pv2 ev2
+1940 Massachusetts Harry S Truman Democratic 0.0 0
+1940 Massachusetts Thomas E. Dewey Democratic pv1 ev1
+1940 Massachusetts Strom Thurmond Democratic pv2 ev2
+1940 Michigan Harry S Truman Democratic 0.0 0
+1940 Michigan Thomas E. Dewey Democratic pv1 ev1
+1940 Michigan Strom Thurmond Democratic pv2 ev2
+1940 Minnesota Harry S Truman Democratic 0.0 0
+1940 Minnesota Thomas E. Dewey Democratic pv1 ev1
+1940 Minnesota Strom Thurmond Democratic pv2 ev2
+1940 Mississippi Harry S Truman Democratic 9 0
+1940 Mississippi Thomas E. Dewey Democratic pv1 ev1
+1940 Mississippi Strom Thurmond Democratic pv2 ev2
+1940 Missouri Harry S Truman Democratic 0.0 0
+1940 Missouri Thomas E. Dewey Democratic pv1 ev1
+1940 Missouri Strom Thurmond Democratic pv2 ev2
+1940 Montana Harry S Truman Democratic 0.0 0
+1940 Montana Thomas E. Dewey Democratic pv1 ev1
+1940 Montana Strom Thurmond Democratic pv2 ev2
+1940 Nebraska Harry S Truman Democratic 0.0 0
+1940 Nebraska Thomas E. Dewey Democratic pv1 ev1
+1940 Nebraska Strom Thurmond Democratic pv2 ev2
+1940 Nevada Harry S Truman Democratic 0.0 0
+1940 Nevada Thomas E. Dewey Democratic pv1 ev1
+1940 Nevada Strom Thurmond Democratic pv2 ev2
+1940 New Hampshire Harry S Truman Democratic 0.0 7
+1940 New Hampshire Thomas E. Dewey Democratic pv1 ev1
+1940 New Hampshire Strom Thurmond Democratic pv2 ev2
+1940 New Jersey Harry S Truman Democratic 0.0 0
+1940 New Jersey Thomas E. Dewey Democratic pv1 ev1
+1940 New Jersey Strom Thurmond Democratic pv2 ev2
+1940 New Mexico Harry S Truman Democratic 0.0 0
+1940 New Mexico Thomas E. Dewey Democratic pv1 ev1
+1940 New Mexico Strom Thurmond Democratic pv2 ev2
+1940 New York Harry S Truman Democratic 0.0 0
+1940 New York Thomas E. Dewey Democratic pv1 ev1
+1940 New York Strom Thurmond Democratic pv2 ev2
+1940 North Carolina Harry S Truman Democratic 8.8 0
+1940 North Carolina Thomas E. Dewey Democratic pv1 ev1
+1940 North Carolina Strom Thurmond Democratic pv2 ev2
+1940 North Dakota Harry S Truman Democratic 0.2 374
+1940 North Dakota Thomas E. Dewey Democratic pv1 ev1
+1940 North Dakota Strom Thurmond Democratic pv2 ev2
+1940 Ohio Harry S Truman Democratic 0.0 0
+1940 Ohio Thomas E. Dewey Democratic pv1 ev1
+1940 Ohio Strom Thurmond Democratic pv2 ev2
+1940 Oklahoma Harry S Truman Democratic 0.0 0
+1940 Oklahoma Thomas E. Dewey Democratic pv1 ev1
+1940 Oklahoma Strom Thurmond Democratic pv2 ev2
+1940 Oregon Harry S Truman Democratic 0.0 0
+1940 Oregon Thomas E. Dewey Democratic pv1 ev1
+1940 Oregon Strom Thurmond Democratic pv2 ev2
+1940 Pennsylvania Harry S Truman Democratic 0.0 0
+1940 Pennsylvania Thomas E. Dewey Democratic pv1 ev1
+1940 Pennsylvania Strom Thurmond Democratic pv2 ev2
+1940 Rhode Island Harry S Truman Democratic 0.0 0
+1940 Rhode Island Thomas E. Dewey Democratic pv1 ev1
+1940 Rhode Island Strom Thurmond Democratic pv2 ev2
+1940 South Carolina Harry S Truman Democratic 8 0
+1940 South Carolina Thomas E. Dewey Democratic pv1 ev1
+1940 South Carolina Strom Thurmond Democratic pv2 ev2
+1940 South Dakota Harry S Truman Democratic 0.0 0
+1940 South Dakota Thomas E. Dewey Democratic pv1 ev1
+1940 South Dakota Strom Thurmond Democratic pv2 ev2
+1940 Tennessee Harry S Truman Democratic 13.4 0
+1940 Tennessee Thomas E. Dewey Democratic pv1 ev1
+1940 Tennessee Strom Thurmond Democratic pv2 ev2
+1940 Texas Harry S Truman Democratic 9.3 0
+1940 Texas Thomas E. Dewey Democratic pv1 ev1
+1940 Texas Strom Thurmond Democratic pv2 ev2
+1940 Utah Harry S Truman Democratic 0.0 0
+1940 Utah Thomas E. Dewey Democratic pv1 ev1
+1940 Utah Strom Thurmond Democratic pv2 ev2
+1940 Vermont Harry S Truman Democratic 0.0 0
+1940 Vermont Thomas E. Dewey Democratic pv1 ev1
+1940 Vermont Strom Thurmond Democratic pv2 ev2
+1940 Virginia Harry S Truman Democratic 10.4 0
+1940 Virginia Thomas E. Dewey Democratic pv1 ev1
+1940 Virginia Strom Thurmond Democratic pv2 ev2
+1940 Washington Harry S Truman Democratic 0.0 0
+1940 Washington Thomas E. Dewey Democratic pv1 ev1
+1940 Washington Strom Thurmond Democratic pv2 ev2
+1940 West Virginia Harry S Truman Democratic 0.0 0
+1940 West Virginia Thomas E. Dewey Democratic pv1 ev1
+1940 West Virginia Strom Thurmond Democratic pv2 ev2
+1940 Wisconsin Harry S Truman Democratic 0.0 0
+1940 Wisconsin Thomas E. Dewey Democratic pv1 ev1
+1940 Wisconsin Strom Thurmond Democratic pv2 ev2
+1940 Wyoming Harry S Truman Democratic 0.0 0
+1940 Wyoming Thomas E. Dewey Democratic pv1 ev1
+1940 Wyoming Strom Thurmond Democratic pv2 ev2

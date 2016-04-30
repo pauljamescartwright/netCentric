@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @operator.name %>
+</p>
+
+<p>
+  <strong>Call sign:</strong>
+  <%= @operator.call_sign %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @operator.location %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @event.call_sign %>
+</p>
+
+<%= link_to 'Logger', :controller => 'operators', :action => 'log' %><br>
+<%= link_to 'Edit', edit_event_operator_path(@operator) %> |
+<%= link_to 'Back', event_path(:id => params[:event_id]) %>

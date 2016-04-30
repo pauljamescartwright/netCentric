@@ -1,0 +1,12 @@
+<h1>logger</h1>
+
+<div class="contacts">
+	<%= render partial: 'contacts/contact', locals: { contact: @contact } %>
+
+	<form>
+		<label>Call Sign:</label><br>
+		<input type="text" name="call_sign" data-behavior="contact_speaker">
+		<label>Name:</label><br>
+		<input type="text" name="name" data-behavior="contact_speaker">
+	</form>
+</div>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  call_sign: MyString
+  location: MyString
+  event: one
+
+two:
+  name: MyString
+  call_sign: MyString
+  location: MyString
+  event: two

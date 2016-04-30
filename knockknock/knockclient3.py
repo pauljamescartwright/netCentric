@@ -44,6 +44,7 @@ def hearJoke(clientsocket):
     # recieve data from server
     msg = recieve(clientsocket)
 
+
 def tellJoke(clientsocket):
     print("joke to server")
     # receives responce from client
@@ -55,7 +56,6 @@ def tellJoke(clientsocket):
         else:
             usrInput = input("\t")
             respond("\t" + usrInput, clientsocket, False)
-
 
 
 def SimpleClient(IP):

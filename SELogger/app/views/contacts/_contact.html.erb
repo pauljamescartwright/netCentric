@@ -1,0 +1,24 @@
+<div class="contact">
+
+	<table>
+  <thead>
+    <tr>
+      <th>band</th>
+      <th>Call sign</th>
+      <th>Location</th>
+      <th>mode</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @contact.each do |contact| %>
+      <tr>
+        <td><%= contact.band %></td>
+        <td><%= contact.call_sign %></td>
+        <td><%= contact.location %></td>
+        <td><%= contact.mode %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<div>
+<h1>Event</h1>
+<p>
+  <strong>Name:</strong>
+  <%= @event.name %><br>
+  <strong>Call sign:</strong>
+  <%= @event.call_sign %><br>
+  <strong>Location:</strong>
+  <%= @event.location %>
+</p>
+<%= link_to 'Public Page', :controller => "events", :action => "public" %><br>
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
+
+<h2>Operators</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Call sign</th>
+      <th>Location</th>
+      <th>Event</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @operators.each do |operator| %>
+      <tr>
+        <td><%= operator.name %></td>
+        <td><%= operator.call_sign %></td>
+        <td><%= operator.location %></td>
+        <td><%= @event.call_sign %></td>
+        <td><%= link_to 'Show', event_operator_path(:id => operator.id, :event_id => params[:id]) %></td>
+        <td><%= link_to 'Edit', edit_event_operator_path(:id => operator.id, :event_id => params[:id]) %></td>
+        <td><%= link_to 'Destroy', event_operator_path(:id => operator.id, :event_id => params[:id]), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>
+
+<%= link_to 'New Operator', new_event_operator_path(:event_id => params[:id]) %>
+</div>
